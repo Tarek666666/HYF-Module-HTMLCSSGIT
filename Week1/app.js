@@ -1,4 +1,7 @@
 
+// variabels 
+
+
 const workBtn = document.querySelector('.work');
 const profileContainer = document.querySelector('.foto-info-container');
 const workInfoContainer = document.querySelector('.work-info-container');
@@ -10,6 +13,14 @@ const educationBtn        = document.querySelector('.education');
 const contactBtn         =  document.querySelector('.contact');
 const contactContainer   = document.querySelector('.contact-info-container');
 
+
+
+
+
+
+
+
+// listeners 
 
 
 profileBtn.addEventListener('click' , function(){

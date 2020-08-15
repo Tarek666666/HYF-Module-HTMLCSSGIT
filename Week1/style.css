@@ -1,6 +1,4 @@
 * {
-
-   
     padding: 0px;
     box-sizing: border-box;
     margin: 0px;
@@ -12,9 +10,7 @@ body{
 }
 
 
-
 .main-wraper{
-
 
    background-color:  blue;
    width: 80%;
@@ -25,6 +21,8 @@ body{
    background-image: url('./images/back3.jpg');
     
 }
+
+/* styling the content containers which holds the informations of the buttons */
 
 .foto-info-container{
 
@@ -110,6 +108,8 @@ body{
 
 }
 
+/* giving the cards of the works information the blur effect */
+
 .card-1-work::before{
 
     content: '';
@@ -119,14 +119,10 @@ body{
     bottom: -4px;
     left: -4px;
     background-color: #ffffff;
-    z-index: -1;
-    
-   
-    
+    z-index: -1;         
 }
 
 .card-1-work::after{
-
     content: '';
     position: absolute;
     top : -4px;
@@ -136,9 +132,7 @@ body{
     background-color: #ffffff;
     z-index: -2;
     filter: blur(20px);
-    
-    
-    
+         
 }
 
 .card-1-work:nth-child(1):before , .card-1-work:nth-child(1):after {
@@ -148,10 +142,7 @@ background: linear-gradient(235deg , #ff3300 , #010615 , #00bcd4);
 
 .card-1-work:nth-child(2):before , .card-1-work:nth-child(2):after {
     background: linear-gradient(235deg , #00bcd4  , #010615 , #ff3300 );
-    
     }
-
-
 
 .resume-info-container {
 
@@ -166,8 +157,7 @@ background: linear-gradient(235deg , #ff3300 , #010615 , #00bcd4);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-    
+      
 }
 
 .resume-info-container.visible {
@@ -188,8 +178,7 @@ background: linear-gradient(235deg , #ff3300 , #010615 , #00bcd4);
     font-weight: bold;
     font-size: 30px;
     color: rgb(255, 0, 0);
-    
-    
+       
 
 }
 
@@ -253,9 +242,7 @@ background: linear-gradient(235deg , #ff3300 , #010615 , #00bcd4);
     top: 120px;
     left: 150px;
     display: flex;
-    
     visibility: hidden;
-
 
 }
 
@@ -311,10 +298,7 @@ button {
 }
 
 
-
 img {
-
-
     width: 250px;
     height: 250px;
     border: solid 8px  rgb(37, 34, 34);
@@ -374,18 +358,14 @@ hr {
 }
 
 .menu-container {
-
-    
+  
     width: 30%;
     height: 40%;
     float: right; 
     display: flex;
     flex-direction: column;
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 30% 100%);
-    
-    
-   
-     
+      
 }
 
 .profile {
@@ -426,8 +406,6 @@ hr {
     padding-left: 3px;
     color: white;
     transform: skewX(-30deg);
-    
-   
 
 }
 
@@ -438,16 +416,13 @@ hr {
     background-color: white;
     position: relative;
     margin-bottom: 5px;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
 
 .work:hover{
-
-    
+ 
     background-color: red;
-   
-    
+ 
 }
 
 .icon-holder-work {
@@ -456,8 +431,6 @@ hr {
     height: 70%;
     background-color: rgb(37, 34, 34);
     text-align: center;
-    /*clip-path: polygon(0 0, 65% 0%, 100% 100%, 30% 100%);*/
-    
     display: inline-block;
     position: absolute;
     top: 8px;
@@ -488,11 +461,8 @@ hr {
 }
 
 .resume:hover{
-
     
     background-color: red;
-    
-
 
 }
 
@@ -502,14 +472,11 @@ hr {
     height: 70%;
     background-color: rgb(37, 34, 34);
     text-align: center;
-    /*clip-path: polygon(0 0, 65% 0%, 100% 100%, 30% 100%);*/
-   
     display: inline-block;
     position: absolute;
     top: 8px;
     left: 75px;
     transform: skewX(30deg);
-
 
 }
 .icon-holder-resume i {
@@ -518,7 +485,6 @@ hr {
     padding-left: 3px;
     color: white;
     transform: skewX(-30deg);
-
 
 }
 
@@ -530,7 +496,6 @@ hr {
     position: relative;
     margin-bottom: 5px;
     cursor: pointer;
-
 
 }
 
@@ -545,13 +510,11 @@ hr {
     height: 70%;
     background-color: rgb(37, 34, 34);
     text-align: center;
-    /*clip-path: polygon(0 0, 65% 0%, 100% 100%, 30% 100%);*/
     display: inline-block;
     position: absolute;
     top: 8px;
     left: 105px;
     transform: skewX(30deg);
-
 
 }
 
@@ -563,9 +526,6 @@ hr {
     color: white;
     transform: skewX(-30deg);
     
-
-
-
 }
 
 .contact {
@@ -589,7 +549,6 @@ hr {
     height: 70%;
     background-color: rgb(37, 34, 34);
     text-align: center;
-    /*clip-path: polygon(0 0, 65% 0%, 100% 100%, 30% 100%);*/
     display: inline-block;
     position: absolute;
     top: 8px;
@@ -604,8 +563,7 @@ hr {
     padding-top: 9px;
     padding-left: 3px;
     color: white;
-    transform: skewX(-30deg);
-    
+    transform: skewX(-30deg);  
 
 }
 
