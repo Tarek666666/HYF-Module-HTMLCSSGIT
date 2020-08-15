@@ -1,0 +1,5 @@
+1- To create a hidden folder or file we just need to use command mkdir or touch and we pust a . at the begining of the file name
+1.2 - If we want to display the hidden folders of files we use the command ls + -a
+2- To create multiple nested directories , we need to choose the correct path then we add the flag -p
+3- To append a message to a file, we use command echo + , it will appear on the seconed line , if we want it to be at the same line then 
+    we simply add the -n flag so it will be on the same line
