@@ -75,6 +75,7 @@ section:first-child ul li {
 }
 
 img {
+  width: 12em;
   margin-top: 45px;
   cursor: pointer;
 }
