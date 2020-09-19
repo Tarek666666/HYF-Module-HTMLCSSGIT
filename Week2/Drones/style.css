@@ -75,6 +75,8 @@ section:first-child ul li {
 }
 
 img {
+  width : calc(50% + 100px);
+  width : calc(100% / 2);
   margin-top: 45px;
   cursor: pointer;
 }
