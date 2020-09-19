@@ -208,7 +208,7 @@ h3 {
 /* Styling the last section in the page */
 
 .why-u-want-learn {
-  background-image: url(./images/why-u-want-to-learn-background.svg);
+  background-image: url(/images/why-u-want-to-learn-background.svg);
   width: 100% !important;
 
   background-color: #141c3a;
